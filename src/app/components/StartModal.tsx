@@ -6,8 +6,6 @@ export default function StartModal() {
   const { startMusic, showModal } = useMusic();
   if (!showModal) return null;
 
-  if (!open) return null;
-
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50">
       <div className="w-[320px] rounded-2xl bg-pink-50 px-6 py-8 text-center shadow-xl animate-[pop_0.4s_ease-out]">
