@@ -79,7 +79,7 @@ export default function page2() {
 
         <FadeInOnScroll direction="left">
           <div className="flex my-[10px] max-w-[1200px]">
-            <Image src="/images/fav5.jpg" width={300} height={100} alt="fav1" />
+            <Image src="/images/fav5.JPG" width={300} height={100} alt="fav1" />
             <p className="font-outfit text-[17px] mx-[10px] flex items-center">
               CANTIK BANGET INI SIH FIXXXX !!!!!! Disaat kita jalan jalan ke
               braga terus sesi fotosut INI FOTO PAVORIT AKU !!!!! ❤️
