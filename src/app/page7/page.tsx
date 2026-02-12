@@ -10,11 +10,11 @@ export default function page7() {
     <div className="bg-fuchsia-100 ">
       <Hearts />
       <Header />
-      <div className="flex flex-col items-center justify-center py-[70px] px-[30px]">
-        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600">
+      <div className="flex flex-col items-center justify-center py-[70px] px-[30px] ">
+        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600 fade-in-left">
           Wahh, ada gitar nich hehehehe 🤔🤔💭💭
         </h1>
-        <h2 className="font-outfit text-[20px] text-center">
+        <h2 className="font-outfit text-[20px] text-center fade-in-left">
           Di valentine tahun ini aku juga ingin remaster fingerstyle gitar aku,
           lagu yang kamu sukai sepanjang masa, hehehe. Karena waktu aku kirim
           dulu, aku masih macet macet, yang sekarang udah mendingan lah
@@ -22,11 +22,11 @@ export default function page7() {
           nyanyikan, HEHEHE (JANGAN PLAY DULU SEBELUM INTERAKSI YAH !!!)
           ❤️❤️❤️❤️
         </h2>
-        <h2 className="font-outfit text-[30px] mt-[10px] mb-[20px] text-red-700">
+        <h2 className="font-outfit text-[30px] mt-[10px] mb-[20px] text-red-700 fade-in-left">
           SEMOGA SUKAAA !!! ❤️❤️❤️❤️
         </h2>
 
-        <div className="my-[10px] max-w-[1200px] flex flex-col justify-center items-center">
+        <div className="my-[10px] max-w-[1200px] flex flex-col justify-center items-center fade-in-right delay-300">
           <video
             src="/music/INTERAKSI.mp4"
             controls
@@ -38,7 +38,7 @@ export default function page7() {
           </p>
         </div>
 
-        <div className="my-[10px] max-w-[1200px] flex flex-col justify-center items-center">
+        <div className="my-[10px] max-w-[1200px] flex flex-col justify-center items-center fade-in-left delay-700">
           <video
             src="/music/forvalentineayangcompress.mp4"
             controls

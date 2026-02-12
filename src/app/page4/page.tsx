@@ -14,20 +14,20 @@ export default function page4() {
     <div className="bg-fuchsia-100 ">
       <Hearts />
       <Header />
-      <div className="flex flex-col items-center justify-center py-[70px] px-[30px]">
-        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600">
+      <div className="flex flex-col items-center justify-center py-[70px] px-[30px] fade-in-left">
+        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600 fade-in-left">
           Tapiii momen kenangan yang paling aku sukaa apa yaaa kira kiraa ????
         </h1>
-        <h2 className="font-outfit text-[20px] text-center">
+        <h2 className="font-outfit text-[20px] text-center fade-in-left">
           Jeng jeng jenggg !! SAAT KITAA PERGII KE LEMBANG PARK AND ZOO !! Bener
           bener kenangan favorit akuu ! Meskipun sebenernya setiap pertemuan
           merupakan kenangan manis, tapi gamungkin aku taru semua yaa 😭😭. Jadi
           aku pick 1 saja yang paling pavorit ❤️❤️
         </h2>
-        <h2 className="font-outfit text-[30px] mt-[10px] mb-[20px] text-red-700">
+        <h2 className="font-outfit text-[30px] mt-[10px] mb-[20px] text-red-700 fade-in-right delay-500">
           DOKUMENTASI
         </h2>
-        <div className="flex my-[10px]">
+        <div className="flex my-[10px] fade-in-right delay-500">
           <Image src="/images/fav3.jpg" width={300} height={100} alt="fav1" />
           <Image src="/images/themostfav.jpg" width={300} height={100} alt="" />
           <Image
@@ -38,7 +38,7 @@ export default function page4() {
           />
         </div>
 
-        <div className="flex my-[10px]">
+        <div className="flex my-[10px] fade-in-right delay-500">
           <Image
             src="/images/themostfav3.jpg"
             width={300}

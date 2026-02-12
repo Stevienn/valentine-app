@@ -11,19 +11,25 @@ export default function Home() {
       <Hearts />
       <Header />
       <div className="flex flex-col items-center justify-center py-[70px] px-[30px]">
-        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600">
+        <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600 fade-in-left">
           Happy Valentine Day my dear cutie Cheiiiyoooooo ❤️❤️❤️
         </h1>
-        <Image src="/samoyed.png" width={300} height={100} alt="samoyed" />
-        <h1 className="font-outfit text-[20px] mt-[30px]">
+        <Image
+          src="/samoyed.png"
+          width={300}
+          height={100}
+          alt="samoyed"
+          className="fade-in-right delay-500"
+        />
+        <h1 className="font-outfit text-[20px] mt-[30px] fade-in-left delay-1000">
           Kalo di tahun lalu aku pas valentine kasih kamu bucket bunga dan
           cokelat, di tahun ini karena kita ldr, aku cuma bisa kasih ini, tapi
           ini aku kerjakan semaksimal dan sekiyowo mungkin hanya buat kamuu ❤️
         </h1>
-        <h1 className="font-outfit text-[30px] mt-[30px] text-red-600">
+        <h1 className="font-outfit text-[30px] mt-[30px] text-red-600 fade-in-right delay-1000">
           Will you still be my Valentine this year and next year and forever ???
         </h1>
-        <div className="mt-[20px] gap-10 flex">
+        <div className="mt-[20px] gap-10 flex fade-in-right delay-1000">
           <Link href="/page2">
             <button className="rounded-full bg-red-600 px-5 py-3 text-[20px] text-white text-2xl transition hover:bg-red-800">
               Yess !!!

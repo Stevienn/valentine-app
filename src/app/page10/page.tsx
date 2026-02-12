@@ -91,7 +91,7 @@ export default function page9() {
       {restart && <RestartModal />}
       <Hearts />
       <Header />
-      <div className="flex flex-col items-center justify-center py-[70px] px-[30px]">
+      <div className="flex flex-col items-center justify-center py-[70px] px-[30px] fade-in-left delay-700">
         <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600">
           Closing (Sweet Ending) ❤️
         </h1>

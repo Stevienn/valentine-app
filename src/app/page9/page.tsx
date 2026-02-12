@@ -11,7 +11,7 @@ export default function page9() {
     <div className="bg-fuchsia-100 ">
       <Hearts />
       <Header />
-      <div className="flex flex-col items-center justify-center py-[70px] px-[30px]">
+      <div className="flex flex-col items-center justify-center py-[70px] px-[30px] fade-in-right">
         <h1 className="font-barriecito text-[35px] mb-[20px] text-red-600">
           Pesan pesan untukmu, dari stipy, hehe ! ❤️
         </h1>
